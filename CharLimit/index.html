@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+
+  <title>Character Limit for Textboxes</title>
+  <style type="text/css">
+/*<![CDATA[*/
+  body{
+  color: #000;
+  }
+  /*]]>*/
+  </style>
+  <script type="text/javascript" src=
+  "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.js">
+</script>
+  <script type="text/javascript" src="charlimit.js">
+</script>
+  <script type="text/javascript">
+//<![CDATA[
+  $(document).ready(function(){
+  CharLimitPlugin.Initialize('limit', 255);
+
+  });
+  //]]>
+  </script>
+</head>
+
+<body>
+  <textarea rows="4" class="limit">
+Sample pre-loaded text
+</textarea><br />
+  <textarea rows="4" class="limit">
+</textarea><br />
+  <textarea rows="4" class="limit">
+</textarea><br />
+</body>
+</html>

@@ -1,0 +1,16 @@
+.imageWrap {
+  max-height: 100px;
+  max-width: 200px;
+  overflow: hidden;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.imageWrap img.wrappedImage {
+  height: 100px;
+  max-height: 100%;
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
